@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Series de Fourier | IPN · ESIME</title>
+  <meta name="description" content="Simulador de series de Fourier para ondas senoidal, cuadrada, triangular y diente de sierra, con gráfica y reproducción de audio.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="encabezado">
+    <div class="logo-box">
+      <img src="logo-ipn.png" alt="Logo del Instituto Politécnico Nacional" data-fallback="IPN">
+    </div>
+
+    <div class="encabezado-texto">
+      <h1>Instituto Politécnico Nacional</h1>
+      <h2>Escuela Superior de Ingeniería Mecánica y Eléctrica</h2>
+      <p class="autor">Realizado por: Arrucha Fernandez Zuar Zaret</p>
+    </div>
+
+    <div class="logo-box">
+      <img src="logo-esime.png" alt="Logo de la ESIME" data-fallback="ESIME">
+    </div>
+  </header>
+
+  <!-- TÍTULO DEL PROGRAMA -->
+  <section class="barra-titulo">
+    <h3>Series de Fourier · Ondas periódicas</h3>
+    <p>Ajusta la frecuencia, la amplitud y el número de términos de cada onda. La gráfica muestra siempre dos periodos y el botón reproduce la onda como audio.</p>
+  </section>
+
+  <!-- ONDAS (se generan desde script.js) -->
+  <main id="ondas" class="ondas" aria-live="polite"></main>
+
+  <footer class="pie">
+    <p>IPN · ESIME · Series de Fourier</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
